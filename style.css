@@ -1,0 +1,15 @@
+.container {
+  max-width: 500px;
+}
+
+/* Tambahkan ke file CSS Anda */
+#myBox {
+  width: 100px;
+  height: 100px;
+  background: #3498db;
+  transition: transform 0.5s;
+}
+
+#myBox.animate {
+  transform: scale(1.2) rotate(10deg);
+}
